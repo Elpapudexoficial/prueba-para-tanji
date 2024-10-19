@@ -1,0 +1,53 @@
+            .client-value {
+                display: inline-block;
+                font-size: 1.5rem;
+                font-weight: bold;
+                color: #fff;
+                text-align: center;
+                margin: 0 auto;
+            }
+        
+            .logoipsum-slider {
+                display: flex;
+                justify-content: space-around;
+                align-items: center;
+                gap: 50px; /* Ajusta el espaciado entre los elementos */
+                flex-wrap: wrap;
+                margin-top: 20px; /* Añade un margen superior entre los textos y el título */
+            }
+        
+            figure {
+                margin: 0;
+                padding: 0;
+            }
+        
+            .hr1, .hr2 {
+                border: 0;
+                height: 1px;
+                background: #333;
+                margin: 20px 0;
+            }
+        
+            .flex {
+                display: flex;
+            }
+        
+            .flex-col {
+                flex-direction: column;
+            }
+        
+            .gap-2 {
+                gap: 20px;
+            }
+        
+            .mb-15 {
+                margin-bottom: 15px;
+            }
+        
+            /* Asegurar un buen comportamiento en pantallas pequeñas */
+            @media (max-width: 768px) {
+                .logoipsum-slider {
+                    flex-direction: column;
+                    align-items: center;
+                }
+            }
